@@ -1,0 +1,11 @@
+class Test{
+  int x,y;
+  Test(this.x, this.y);
+  void display(){
+    print("x: $x y: $y");
+  }
+}
+void main(){
+   Test ob = new Test(10,20);
+   ob.display();
+}
